@@ -49,7 +49,7 @@ spec:
           envFrom:
             - configMapRef:
                 name: app-config
-          image: salmahossam12/inventory-app:latest
+          image: salmahossam12/inventory-app:initial
           imagePullPolicy: Always
           name: inventory-worker
           resources:

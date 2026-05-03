@@ -33,7 +33,7 @@ spec:
               envFrom:
                 - configMapRef:
                     name: app-config
-              image: salmahossam12/inventory-app:latest
+              image: salmahossam12/inventory-app:initial
               imagePullPolicy: IfNotPresent
               name: stock-report
               resources:
